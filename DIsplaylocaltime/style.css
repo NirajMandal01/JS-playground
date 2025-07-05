@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    height:60vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #090909;
+    color: white;
+}
+
+.container{
+    width:30vw;
+    height:10vw;
+    background-color: #e7582c;
+    border-radius: 10px;
+}
+
+#clock{
+    text-align: center;
+    font-size: large;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+    display:block;
+}
