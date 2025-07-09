@@ -1,0 +1,107 @@
+body{
+    background-image: linear-gradient(to right,#632ec0,#76228b,#671775);
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#status{
+    display: flex;
+}
+
+#status p{
+    flex:1;
+}
+
+#trial{
+    text-align: right;
+    padding-right: 2rem;
+}
+
+#score{
+    padding-left: 20px;
+}
+
+
+h2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.guessSection{
+    color: rgb(210, 213, 233);;
+    background-color: #353fa9;
+    width:60vw;
+    margin:15vh auto;
+    border-radius: 10px;
+    padding: 8px;
+    padding-bottom: 2rem;
+    box-shadow: 0 0 5px 2px rgb(63, 15, 65);
+    max-width: 450px;
+}
+
+label{
+    text-align: center;
+}
+
+.guessSection input{
+    color:white;
+    margin-top: 5px;
+    border:1px solid rgb(68, 108, 171);
+    background-color: #3c2bae;
+    border-radius: 5px;
+    height:1.5rem;
+    width:50%;
+    text-align: center;
+}
+
+.guessSection label,input{
+    display:block;
+    margin: auto;
+}
+
+.submit{
+    color:white;
+    background-image: linear-gradient(to right,rgb(49, 193, 109),rgb(31, 121, 37));
+    border-radius: 8px;
+    margin-top:1rem;
+    margin-left: 15%;
+    height: 1.5rem;
+    width: 7rem;
+}
+
+.newGame{
+    color:white;
+    border-color: rgb(78, 90, 170);
+    background-image: linear-gradient(to right,rgb(89, 93, 218),rgb(37, 49, 156));
+    border-radius: 8px;
+    margin-top:1rem;
+    margin-left: 15%;
+    height: 1.5rem;
+    width: 7rem;
+}
+
+.listOfguess{
+    border-radius: 10px;
+    width: 90%;
+    background-color: hsla(244, 95%, 38%, 0.531);
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+    padding:5px 0 5px 0 ;
+}
+
+#listOfguesses span{
+    background-image: linear-gradient(to right,rgb(25, 123, 76),rgb(27, 153, 27));
+    padding: 3px;
+    border-radius: 5px;
+    color:rgb(165, 240, 236);
+}
+
+#hint{
+    text-align: center;
+}
