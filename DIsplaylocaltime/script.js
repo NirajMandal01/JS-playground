@@ -1,4 +1,4 @@
-let clock=document.querySelector("#clock");
+let clock=document.querySelector("#time");
 
 
 setInterval(function(){
